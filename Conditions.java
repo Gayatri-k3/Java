@@ -2,24 +2,24 @@
 //based on the condition display the information.
 public class Conditions {
 
-    public static int var1 = 5;
-    public static int var2 = 10;
-    public static int var3 = 15;
-    public static int var4 = 20;
-    public static int var5 = 25;
-    public static int var6 = 30;
-    public static int var7 = 35;
-    public static int var8 = 40;
-    public static int var9 = 45;
-    public static int var10 = 50;
-    public static int var11 = 55;
-    public static int var12 = 60;
-    public static int var13 = 65;
-    public static int var14 = 70;
-    public static int var15 = 75;
+    static int var1 = 5;
+    static int var2 = 10;
+    static int var3 = 15;
+    static int var4 = 20;
+    static int var5 = 25;
+    static int var6 = 30;
+    static int var7 = 35;
+    static int var8 = 40;
+    static int var9 = 45;
+    static int var10 = 50;
+    static int var11 = 55;
+    static int var12 = 60;
+    static int var13 = 65;
+    static int var14 = 70;
+    static int var15 = 75;
 
-    public static void main(String args[]){
-    	if (var1 > 0) {
+    public static void main(String args[]) {
+        if (var1 > 0) {
             System.out.println("var1 is positive");
         }
         if (var2 > 5) {
