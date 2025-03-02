@@ -26,3 +26,4 @@ public class ArrayII{
 			System.out.println("The length of A8 array is :" +a4[5]);
 	}
 	}
+
