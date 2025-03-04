@@ -4,8 +4,6 @@ out put: {2,3,4,5} or 3*/
 public class Missing{
 	public static void main(String[] args) {
         int[] arr = {2, 4, 5}; // Given array
-
-        // Step 1: Sort the array manually using Bubble Sort
         for (int i = 0; i < arr.length - 1; i++) {
             for (int j = 0; j < arr.length - 1 - i; j++) {
                 if (arr[j] > arr[j + 1]) {
@@ -15,8 +13,6 @@ public class Missing{
                 }
             }
         }
-
-        // Step 2: Find and print missing numbers
         System.out.print("Missing numbers: ");
         for (int i = arr[0]; i <= arr[arr.length - 1]; i++) {
             boolean found = false;
