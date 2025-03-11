@@ -1,3 +1,4 @@
+//7
 public class CombinedOperations {
 
     // 1 - Print int array

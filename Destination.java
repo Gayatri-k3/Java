@@ -1,4 +1,5 @@
-public class Ex1 {
+//19
+public class Destination {
     // 1
     public static void bali(String name) {
         System.out.println("Destination: " + name);

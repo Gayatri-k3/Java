@@ -1,3 +1,4 @@
+//20
 public class Multiplication {
 
     // 1

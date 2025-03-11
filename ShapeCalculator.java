@@ -1,113 +1,114 @@
+//9
 public class ShapeCalculator {
 
-    // 1. Calculate the area of a square
+    // 1
     public static void calculateArea(int side) {
         System.out.println("Area of Square: " + (side * side));
     }
 
-    // 2. Calculate the area of a rectangle
+    // 2
     public static void calculateArea(int length, int breadth) {
         System.out.println("Area of Rectangle: " + (length * breadth));
     }
 
-    // 3. Calculate the area of a circle
+    // 3
     public static void calculateArea(double radius) {
         System.out.println("Area of Circle: " + (Math.PI * radius * radius));
     }
 
-    // 4. Calculate the area of a triangle
+    // 4
     public static void calculateArea(double base, double height, boolean isTriangle) {
         if (isTriangle) {
             System.out.println("Area of Triangle: " + (0.5 * base * height));
         }
     }
 
-    // 5. Calculate the perimeter of a square
+    // 5
     public static void calculatePerimeter(int side) {
         System.out.println("Perimeter of Square: " + (4 * side));
     }
 
-    // 6. Calculate the perimeter of a rectangle
+    // 6
     public static void calculatePerimeter(int length, int breadth) {
         System.out.println("Perimeter of Rectangle: " + (2 * (length + breadth)));
     }
 
-    // 7. Calculate the perimeter of a circle (circumference)
+    // 7
     public static void calculatePerimeter(double radius) {
         System.out.println("Circumference of Circle: " + (2 * Math.PI * radius));
     }
 
-    // 8. Calculate volume of a cube
+    // 8
     public static void calculateVolume(int side) {
         System.out.println("Volume of Cube: " + (side * side * side));
     }
 
-    // 9. Calculate volume of a rectangular prism
+    // 9
     public static void calculateVolume(int length, int breadth, int height) {
         System.out.println("Volume of Rectangular Prism: " + (length * breadth * height));
     }
 
-    // 10. Calculate volume of a sphere
+    // 10
     public static void calculateVolume(double radius, boolean isSphere) {
         if (isSphere) {
             System.out.println("Volume of Sphere: " + ((4.0 / 3.0) * Math.PI * Math.pow(radius, 3)));
         }
     }
 
-    // 11. Convert Celsius to Fahrenheit
+    // 11
     public static void convertTemperature(double celsius) {
         System.out.println("Celsius to Fahrenheit: " + ((celsius * 9 / 5) + 32));
     }
 
-    // 12. Convert Fahrenheit to Celsius
+    // 12
     public static void convertTemperature(double fahrenheit, boolean isFahrenheit) {
         if (isFahrenheit) {
             System.out.println("Fahrenheit to Celsius: " + ((fahrenheit - 32) * 5 / 9));
         }
     }
 
-    // 13. Convert kilometers to miles
+    // 13
     public static void convertDistance(double km) {
         System.out.println("Kilometers to Miles: " + (km * 0.621371));
     }
 
-    // 14. Convert miles to kilometers
+    // 14
     public static void convertDistance(double miles, boolean isMiles) {
         if (isMiles) {
             System.out.println("Miles to Kilometers: " + (miles / 0.621371));
         }
     }
 
-    // 15. Convert meters to centimeters
+    // 15
     public static void convertLength(int meters) {
         System.out.println("Meters to Centimeters: " + (meters * 100));
     }
 
-    // 16. Convert centimeters to meters
+    // 16
     public static void convertLength(int cm, boolean isCM) {
         if (isCM) {
             System.out.println("Centimeters to Meters: " + (cm / 100.0));
         }
     }
 
-    // 17. Convert grams to kilograms
+    // 17
     public static void convertWeight(int grams) {
         System.out.println("Grams to Kilograms: " + (grams / 1000.0));
     }
 
-    // 18. Convert kilograms to grams
+    // 18
     public static void convertWeight(int kg, boolean isKg) {
         if (isKg) {
             System.out.println("Kilograms to Grams: " + (kg * 1000));
         }
     }
 
-    // 19. Convert seconds to minutes
+    // 19
     public static void convertTime(int seconds) {
         System.out.println("Seconds to Minutes: " + (seconds / 60.0));
     }
 
-    // 20. Convert minutes to seconds
+    // 20
     public static void convertTime(int minutes, boolean isMinutes) {
         if (isMinutes) {
             System.out.println("Minutes to Seconds: " + (minutes * 60));

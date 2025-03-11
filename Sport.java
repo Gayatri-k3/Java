@@ -1,4 +1,5 @@
-public class Ex2 {
+//18
+public class Sport {
     // 1
     public static void kabaddi(String name) {
         System.out.println("Sport: " + name);

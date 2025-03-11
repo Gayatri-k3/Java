@@ -1,3 +1,4 @@
+//10
 public class CurrencyConverter {
 
     // 1. Convert INR to USD (int)

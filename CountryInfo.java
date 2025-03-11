@@ -1,3 +1,4 @@
+//16
 public class CountryInfo {
     // 1
     public static void India(String capital) {

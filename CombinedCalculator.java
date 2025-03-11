@@ -1,3 +1,4 @@
+//6
 public class CombinedCalculator {
     // 1
     public static void display(String name) {

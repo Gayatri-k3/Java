@@ -1,4 +1,5 @@
-public class Ex3 {
+//17
+public class Drinks {
     // 1
     public static void oJ(String name) {
         System.out.println("Drink: " + name);
