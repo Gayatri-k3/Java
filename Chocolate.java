@@ -1,0 +1,23 @@
+//9. Chocolate
+class Chocolate{
+	String brand;
+    String type;
+    double weight;
+    boolean hasNuts;
+    boolean isDarkChocolate;
+    boolean isVegan;
+    boolean isSugarFree;
+    String flavor;
+    boolean hasFilling;
+    String originCountry;
+    double cocoaPercentage;
+    String texture;
+    boolean isHandmade;
+    String packagingType;
+    boolean isOrganic;
+    double price;
+    int expiryMonths;
+    boolean hasCaramel;
+    boolean hasFruitPieces;
+    boolean isGlutenFree;
+}

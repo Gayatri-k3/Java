@@ -1,0 +1,22 @@
+//10. Satelliete
+class Satellite{
+	String name;
+    String country;
+    String purpose;
+    String launchDate;
+    String launchVehicle;
+    double mass;
+    String orbitType;
+    boolean isOperational;
+    String operator;
+    String missionDuration;
+    String powerSource;
+    boolean hasSolarPanels;
+    boolean hasScientificInstruments;
+    double altitude;
+    String communicationFrequency;
+    boolean isManned;
+    boolean isInterplanetary;
+    double cost;
+    String missionOutcome;
+}

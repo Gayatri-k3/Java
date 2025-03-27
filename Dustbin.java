@@ -1,0 +1,23 @@
+//3. Dustbin
+class Dustbin{
+	String material;
+    double capacity;
+    String shape;
+    String color;
+    boolean hasLid;
+    boolean isRecyclable;
+    String usage;
+    boolean isFireResistant;
+    String brand;
+    double height;
+    double width;
+    String design;
+    boolean hasFootPedal;
+    boolean hasInnerBucket;
+    boolean isOdorProof;
+    String openingMechanism;
+    String locationUsage;
+    boolean isSmart;
+    String warranty;
+    double price;
+}

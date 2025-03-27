@@ -1,0 +1,22 @@
+//12. Zip
+class Zip{
+	String material;
+    double length;
+    String color;
+    String type;
+    boolean isWaterproof;
+    boolean hasAutoLock;
+    String application;
+    boolean isRustProof;
+    String brand;
+    boolean hasDualSlider;
+    String closureType;
+    boolean isReversible;
+    double width;
+    boolean isCustomizable;
+    String durability;
+    boolean isHeatResistant;
+    int warrantyYears;
+    double price;
+    boolean hasHiddenTeeth;
+}

@@ -1,0 +1,23 @@
+//6. Planet
+class Planet{
+	String name;
+    double mass;
+    double radius;
+    double gravity;
+    String type;
+    String atmosphereComposition;
+    boolean hasRings;
+    int numberOfMoons;
+    String discoveryDate;
+    String discoveredBy;
+    double orbitalPeriod;
+    double rotationPeriod;
+    double distanceFromSun;
+    boolean supportsLife;
+    String coreComposition;
+    double surfaceTemperature;
+    String surfaceFeatures;
+    boolean hasMagneticField;
+    String spaceMissions;
+    String planetCategory;
+}

@@ -1,0 +1,22 @@
+//11. PaintBrush
+class PaintBrush{
+	String brand;
+    String bristleMaterial;
+    String handleMaterial;
+    double length;
+    boolean isWashable;
+    String shape;
+    boolean hasComfortGrip;
+    boolean hasReplaceableBristles;
+    String application;
+    String color;
+    boolean isSynthetic;
+    boolean isEcoFriendly;
+    String usageType;
+    double weight;
+    boolean isDoubleSided;
+    boolean hasProtectiveCover;
+    int warrantyYears;
+    double price;
+    boolean hasAntiSheddingBristles;s
+}

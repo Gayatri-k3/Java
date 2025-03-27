@@ -1,0 +1,23 @@
+//7. Rocket
+class Rocket{
+	String name;
+    String manufacturer;
+    double height;
+    double diameter;
+    double mass;
+    int stages;
+    double thrust;
+    double payloadCapacity;
+    String fuelType;
+    String launchDate;
+    boolean isReusable;
+    String launchSite;
+    boolean hasEscapeSystem;
+    String missionType;
+    String destination;
+    String country;
+    int successfulLaunches;
+    int failedLaunches;
+    String notableMissions;
+    double cost;
+}

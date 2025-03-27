@@ -1,0 +1,22 @@
+//8. Drone
+class Drone{
+	String brand;
+    String model;
+    double weight;
+    double maxFlightTime;
+    double maxSpeed;
+    double range;
+    String cameraSpecs;
+    boolean hasGPS;
+    boolean hasObstacleAvoidance;
+    boolean isFoldable;
+    String batteryCapacity;
+    String remoteControlType;
+    boolean supportsLiveStreaming;
+    boolean hasNightVision;
+    String usage;
+    boolean isWaterproof;
+    int warrantyYears;
+    double price;
+    boolean supportsVR;
+}

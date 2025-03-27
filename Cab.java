@@ -1,0 +1,22 @@
+//4. Cab
+class Cab{
+	String brand;
+    String model;
+    String fuelType;
+    String transmission;
+    int seatingCapacity;
+    boolean hasAC;
+    boolean hasGPS;
+    boolean hasMusicSystem;
+    String color;
+    double mileage;
+    int engineCapacity;
+    String safetyFeatures;
+    boolean hasAirbags;
+    boolean hasPowerSteering;
+    String fuelEfficiency;
+    String usageType;
+    boolean isElectric;
+    int warrantyYears;
+    double price;
+}
