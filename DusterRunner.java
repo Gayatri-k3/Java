@@ -26,7 +26,7 @@ class DusterRunner {
                 "\nApplication: " + duster1.application + 
                 "\nAnti Static: " + duster1.antiStatic + 
                 "\nHas Replaceable Head: " + duster1.hasReplaceableHead + 
-                "\nErgonomic Grip: " + duster1.ergonomicGrip + 
+                "\nErgonomic Grip: " + duster1.grip + 
                 "\nSurface Compatibility: " + duster1.surfaceCompatibility + 
                 "\nIs Foldable: " + duster1.isFoldable + 
                 "\nWeight: " + duster1.weight + " kg" + 
@@ -49,7 +49,7 @@ class DusterRunner {
                 "\nApplication: " + duster2.application + 
                 "\nAnti Static: " + duster2.antiStatic + 
                 "\nHas Replaceable Head: " + duster2.hasReplaceableHead + 
-                "\nErgonomic Grip: " + duster2.ergonomicGrip + 
+                "\nErgonomic Grip: " + duster2.grip + 
                 "\nSurface Compatibility: " + duster2.surfaceCompatibility + 
                 "\nIs Foldable: " + duster2.isFoldable + 
                 "\nWeight: " + duster2.weight + " kg" + 
@@ -72,7 +72,7 @@ class DusterRunner {
                 "\nApplication: " + duster3.application + 
                 "\nAnti Static: " + duster3.antiStatic + 
                 "\nHas Replaceable Head: " + duster3.hasReplaceableHead + 
-                "\nErgonomic Grip: " + duster3.ergonomicGrip + 
+                "\nErgonomic Grip: " + duster3.grip + 
                 "\nSurface Compatibility: " + duster3.surfaceCompatibility + 
                 "\nIs Foldable: " + duster3.isFoldable + 
                 "\nWeight: " + duster3.weight + " kg" + 

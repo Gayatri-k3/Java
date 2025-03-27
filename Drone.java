@@ -8,21 +8,21 @@ class Drone{
     double range;
     String cameraSpecs;
     boolean hasGPS;
-    boolean hasObstacleAvoidance;
+    boolean obstacleD;
     boolean isFoldable;
     String batteryCapacity;
     String remoteControlType;
-    boolean supportsLiveStreaming;
+    boolean isRemoteControlling;
     boolean hasNightVision;
     String usage;
     boolean isWaterproof;
     int warrantyYears;
     double price;
-    boolean supportsVR;
+    boolean goProAttached;
     public Drone(String brand, String model, double weight, double maxFlightTime, double maxSpeed, double range, String cameraSpecs,
-                 boolean hasGPS, boolean hasObstacleAvoidance, boolean isFoldable, String batteryCapacity, String remoteControlType,
-                 boolean supportsLiveStreaming, boolean hasNightVision, String usage, boolean isWaterproof, int warrantyYears, double price,
-                 boolean supportsVR) {
+                 boolean hasGPS, boolean obstacleD, boolean isFoldable, String batteryCapacity, String remoteControlType,
+                 boolean isRemoteControlling, boolean hasNightVision, String usage, boolean isWaterproof, int warrantyYears, double price,
+                 boolean goProAttached) {
         this.brand = brand;
         this.model = model;
         this.weight = weight;
@@ -31,16 +31,16 @@ class Drone{
         this.range = range;
         this.cameraSpecs = cameraSpecs;
         this.hasGPS = hasGPS;
-        this.hasObstacleAvoidance = hasObstacleAvoidance;
+        this.obstacleD = obstacleD;
         this.isFoldable = isFoldable;
         this.batteryCapacity = batteryCapacity;
         this.remoteControlType = remoteControlType;
-        this.supportsLiveStreaming = supportsLiveStreaming;
+        this.isRemoteControlling = isRemoteControlling;
         this.hasNightVision = hasNightVision;
         this.usage = usage;
         this.isWaterproof = isWaterproof;
         this.warrantyYears = warrantyYears;
         this.price = price;
-        this.supportsVR = supportsVR;
+        this.goProAttached = goProAttached;
     }
 }

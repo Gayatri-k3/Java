@@ -13,7 +13,7 @@ class Duster{
     String application;
     boolean antiStatic;
     boolean hasReplaceableHead;
-    boolean ergonomicGrip;
+    boolean grip;
     String surfaceCompatibility;
     boolean isFoldable;
     double weight;
@@ -22,7 +22,7 @@ class Duster{
     double price;
     public Duster(String brand, String material, String usage, boolean isWashable, boolean hasExtendableHandle,
                   String color, double length, String handleMaterial, boolean isReusable, String dustAttractingTechnology,
-                  String application, boolean antiStatic, boolean hasReplaceableHead, boolean ergonomicGrip,
+                  String application, boolean antiStatic, boolean hasReplaceableHead, boolean grip,
                   String surfaceCompatibility, boolean isFoldable, double weight, boolean hasMicrofiberHead,
                   int warrantyYears, double price) {
         this.brand = brand;
@@ -38,7 +38,7 @@ class Duster{
         this.application = application;
         this.antiStatic = antiStatic;
         this.hasReplaceableHead = hasReplaceableHead;
-        this.ergonomicGrip = ergonomicGrip;
+        this.grip = grip;
         this.surfaceCompatibility = surfaceCompatibility;
         this.isFoldable = isFoldable;
         this.weight = weight;

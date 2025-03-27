@@ -5,7 +5,7 @@ class Planet{
   double radius;
   double gravity;
   String type;
-  String atmosphereComposition;
+  String atmosphere;
   boolean hasRings;
   int numberOfMoons;
   String discoveryDate;
@@ -21,7 +21,7 @@ class Planet{
   String spaceMissions;
   String planetCategory;
 
-    public Planet(String name, double mass, double radius, double gravity, String type, String atmosphereComposition,
+    public Planet(String name, double mass, double radius, double gravity, String type, String atmosphere,
                   boolean hasRings, int numberOfMoons, String discoveryDate, String discoveredBy, double orbitalPeriod,
                   double rotationPeriod, double distanceFromSun, boolean supportsLife, String coreComposition,
                   double surfaceTemperature, String surfaceFeatures, boolean hasMagneticField, String spaceMissions,
@@ -31,7 +31,7 @@ class Planet{
         this.radius = radius;
         this.gravity = gravity;
         this.type = type;
-        this.atmosphereComposition = atmosphereComposition;
+        this.atmosphere = atmosphere;
         this.hasRings = hasRings;
         this.numberOfMoons = numberOfMoons;
         this.discoveryDate = discoveryDate;
