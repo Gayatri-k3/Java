@@ -1,3 +1,13 @@
 class ZipRunner{
-	
+	public static void main(String[] args) {
+        Zip zip1 = new Zip("Nylon", 30.0, "Black", "Coil", true, true, "Jackets", true, "YKK", true, "Open-End", false, 1.2, true, "High", true, 5, 3.99, false);
+        Zip zip2 = new Zip("Metal", 25.5, "Silver", "Tooth", false, false, "Jeans", true, "Talon", false, "Closed-End", true, 1.5, false, "Medium", false, 3, 2.49, true);
+        Zip zip3 = new Zip("Plastic", 20.0, "White", "Invisible", true, false, "Dresses", false, "Coats", false, "Invisible", false, 0.8, true, "Low", false, 2, 1.99, false);
+
+        System.out.println("Zip 1: \nMaterial: " + zip1.material + ", \nLength: " + zip1.length + " cm, \nColor: " + zip1.color + ", \nType: " + zip1.type + ", \nWaterproof: " + zip1.isWaterproof + ", \nAuto Lock: " + zip1.hasAutoLock + ", \nApplication: " + zip1.application + ", \nRust Proof: " + zip1.isRustProof + ", \nBrand: " + zip1.brand + ", \nDual Slider: " + zip1.hasDualSlider + ", \nClosure: " + zip1.closureType + ", \nReversible: " + zip1.isReversible + ", \nWidth: " + zip1.width + " mm, \nCustomizable: " + zip1.isCustomizable + ", \nDurability: " + zip1.durability + ", \nHeat Resistant: " + zip1.isHeatResistant + ", \nWarranty: " + zip1.warrantyYears + " years, \nPrice: $" + zip1.price + ", \nHidden Teeth: " + zip1.hasHiddenTeeth);
+
+        System.out.println("\nZip 2: \nMaterial: " + zip2.material + ", \nLength: " + zip2.length + " cm, \nColor: " + zip2.color + ", \nType: " + zip2.type + ", \nWaterproof: " + zip2.isWaterproof + ", \nAuto Lock: " + zip2.hasAutoLock + ", \nApplication: " + zip2.application + ", \nRust Proof: " + zip2.isRustProof + ", \nBrand: " + zip2.brand + ", \nDual Slider: " + zip2.hasDualSlider + ", \nClosure: " + zip2.closureType + ", \nReversible: " + zip2.isReversible + ", \nWidth: " + zip2.width + " mm, \nCustomizable: " + zip2.isCustomizable + ", \nDurability: " + zip2.durability + ", \nHeat Resistant: " + zip2.isHeatResistant + ", \nWarranty: " + zip2.warrantyYears + " years, \nPrice: $" + zip2.price + ", \nHidden Teeth: " + zip2.hasHiddenTeeth);
+
+        System.out.println("\nZip 3: \nMaterial: " + zip3.material + ", \nLength: " + zip3.length + " cm, \nColor: " + zip3.color + ", \nType: " + zip3.type + ", \nWaterproof: " + zip3.isWaterproof + ", \nAuto Lock: " + zip3.hasAutoLock + ", \nApplication: " + zip3.application + ", \nRust Proof: " + zip3.isRustProof + ", \nBrand: " + zip3.brand + ", \nDual Slider: " + zip3.hasDualSlider + ", \nClosure: " + zip3.closureType + ", \nReversible: " + zip3.isReversible + ", \nWidth: " + zip3.width + " mm, \nCustomizable: " + zip3.isCustomizable + ", \nDurability: " + zip3.durability + ", \nHeat Resistant: " + zip3.isHeatResistant + ", \nWarranty: " + zip3.warrantyYears + " years, \nPrice: $" + zip3.price + ", \nHidden Teeth: " + zip3.hasHiddenTeeth);
+    }
 }
